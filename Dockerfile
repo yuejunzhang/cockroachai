@@ -1,6 +1,6 @@
 # 使用基础镜像
-#FROM xyhelper/cockroachai:20231211120835
-FROM xyhelper/cockroachai:latest
+FROM xyhelper/cockroachai:20231211120835
+# FROM xyhelper/cockroachai:latest
 # FROM xyhelper/cockroachai:20240306041408
 # 设置工作目录
 WORKDIR /app
