@@ -4,7 +4,7 @@
 # OAUTH_URL: https://xxxxx.xxx.com/ouath # oauth地址 用于集成第三方登录 默认值 ""
 # LOGIN_CALLBACK: "/login" # 登录回调地址,用于指定自己的登录页面 默认值 "/login"
 ASSET_PREFIX: https://cdn.oaistatic.com # 静态资源前缀,用于指定自己的静态资源地址 默认值 https://oaistatic-cdn.closeai.biz
-ARKOSE_URL: https://tcr9i.chat.openai.com # arkose地址,用于指定自己的arkose人机验证地址 默认值 https://tcr9i.closeai.biz/v2/
+ARKOSE_URL: https://tcr9i.chat.openai.com/v2/ # arkose地址,用于指定自己的arkose人机验证地址 默认值 https://tcr9i.closeai.biz/v2/
 # ADMIN_PASSWORD: xxxxx # 管理员密码 默认值为随机字符串,每次启动都会变化，可以在启动时通过日志查看，也可以指定一个固定值，方便管理
 # AUDIT_LIMIT_URL: https://auditlimit.closeai.biz/audit_limit # 审计限制url 默认值 ""
 
