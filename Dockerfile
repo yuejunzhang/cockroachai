@@ -10,5 +10,6 @@ COPY ./config /app/config
 
 # 设置环境变量
 # ENV ASSET_PREFIX=https://oaistatic-cdn.closeai.biz
+ENV ASSET_PREFIX=https://cdn.oaistatic.com
 
 
